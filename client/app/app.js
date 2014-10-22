@@ -6,6 +6,7 @@ angular.module('fullstackGenApp', [
   'ngSanitize',
   'ngRoute',
   'btford.socket-io',
+  'react',
   'ui.bootstrap'
 ])
   .config(function ($routeProvider, $locationProvider, $httpProvider) {
