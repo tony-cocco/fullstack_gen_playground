@@ -5,6 +5,9 @@ angular.module('fullstackGenApp')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
+    },{
+      'title': 'React',
+      'link': '/react'
     }];
 
     $scope.isCollapsed = true;
